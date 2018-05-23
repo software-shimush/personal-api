@@ -56,7 +56,9 @@ Content-Type: application/vnd.api+json
   "errors": [
     {
       "status": "404",
-      "source": { "pointer": "/roles/44" },
+      "source": {
+        "pointer": "/roles/44"
+      },
       "detail": "Resource not found."
     }
   ]
