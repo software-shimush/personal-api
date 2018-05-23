@@ -45,3 +45,20 @@
     }
 }
 ```
+
+
+#### Errors
+``` json
+HTTP/1.1 404 Not Found
+Content-Type: application/vnd.api+json
+
+{
+  "errors": [
+    {
+      "status": "404",
+      "source": { "pointer": "/roles/44" },
+      "detail": "Resource not found."
+    }
+  ]
+}
+```
