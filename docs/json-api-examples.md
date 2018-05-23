@@ -37,7 +37,10 @@
       "id": "1",
       "attributes": {
 	"title": "Adjunct Philosopher",
-	"organization": "Acme Corp."
+	"organization": "Acme Corp.",
+	"start_date": "2000-02-01 00:00:00-5:00",
+	"end_date": "203-05-01 00:00:00-5:00",
+	"contact_email": "hufflewump@acmecorp.com"
       }
     }
 }
